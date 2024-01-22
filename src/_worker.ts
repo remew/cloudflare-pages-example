@@ -1,7 +1,7 @@
 import { Hono } from 'hono'
 import { renderToReadableStream } from 'react-dom/server'
 import json from './dummy.json'
-import { App } from './App.tsx'
+import { App } from './App'
 import { createElement } from 'react'
 
 const app = new Hono()
